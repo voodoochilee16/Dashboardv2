@@ -17,7 +17,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 m-5">
         </div>
 
-      <label for="my-drawer-2" class="btn btn-primary drawer-button m-3 ">Open menu</label>
+      <label for="my-drawer-2" class="btn btn-neutral drawer-button m-3 ">Open menu</label>
       
     </div> 
     <div class="drawer-side">

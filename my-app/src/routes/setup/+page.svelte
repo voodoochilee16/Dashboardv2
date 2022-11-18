@@ -18,68 +18,42 @@
 
         <div class="card w-96 bg-base-200 shadow-xl">
             <div class="card-body">
-            <h2 class="card-title">SSH Keys</h2>
-            <p>Generate your ssh-keys and add them to <br> Digital Ocean,
-            Bit Bucket and GitHub</p>
+            <h2 class="card-title">Ubuntu VPS</h2>
+            <p>Basic configuration for a Ubuntu/linux machine @ Digital Ocean</p>
             <div class="card-actions justify-end">
-                <button class="btn btn-primary"><a href="/setup/ssh">Take me there</a></button>
+                <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04" target="blank"><button class="btn btn-primary hover:btn-secondary">Take me There </button></a>
             </div>
             </div>
         </div>
-
+    
         <div class="card w-96 bg-base-200 col-auto shadow-xl justify-center ">
             <div class="card-body">
-            <h2 class="card-title">VS Code</h2>
-            <p>If you use VSCode checkout these must have plugins, especially for remote development</p>
+            <h2 class="card-title">Node Js VPS</h2>
+            <p>Set up a machine with Node JS on Digital Ocean</p>
             <div class="card-actions justify-end">
-                <button class="btn btn-primary"><a href="">VSCode</a></button>
-            </div>
+                <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04" target="blank"><button class="btn btn-primary hover:btn-secondary">Take me There </button></a>            </div>
             </div>
         </div>
-    
-            <div class="card w-96 bg-base-200 shadow-xl">
-                <div class="card-body">
-                <h2 class="card-title">FileZilla</h2>
-                <p>Pretty easy setup, just a few comments about ssh/sftp</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary">FileZilla</button>
-                </div>
-                </div>
+        <div class="card w-96 bg-base-200 col-auto shadow-xl justify-center ">
+            <div class="card-body">
+            <h2 class="card-title">Node Js VPS</h2>
+            <p>Set up a machine with Node JS on Digital Ocean</p>
+            <div class="card-actions justify-end">
+                <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04" target="blank"><button class="btn btn-primary hover:btn-secondary">Take me There </button></a>            </div>
             </div>
-            <div class="card w-96 bg-base-200 shadow-xl">
-                <div class="card-body">
-                <h2 class="card-title">Card title!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                </div>
-                </div>
+        </div>
+        <div class="card w-96 bg-base-200 col-auto shadow-xl justify-center ">
+            <div class="card-body">
+            <h2 class="card-title">Node Js VPS</h2>
+            <p>Set up a machine with Node JS on Digital Ocean</p>
+            <div class="card-actions justify-end">
+                <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04" target="blank"><button class="btn btn-primary hover:btn-secondary">Take me There </button></a>            </div>
             </div>
-    
-            <div class="card w-96 bg-base-200 shadow-xl">
-                <div class="card-body">
-                <h2 class="card-title">Card title!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary"><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-20-04">Take me there</a></button>
-                </div>
-                </div>
-            </div>
-    
-    
-            <div class="card w-96 bg-base-200 shadow-xl">
-                <div class="card-body">
-                <h2 class="card-title">Card title!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                </div>
-                </div>
-            </div>
+        </div>
     
         </div>
 
-      <label for="my-drawer-2" class="btn btn-primary drawer-button m-3 ">Open menu</label>
+      <label for="my-drawer-2" class="btn btn-neutral hover:bg-orange-400  hover:text-blue-200 drawer-button m-3 ">Open menu</label>
       
     </div> 
     <div class="drawer-side">

@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.33.0"
+		"daisyui": "^2.33.0",
+		"theme-change": "^2.2.0"
 	}
 }
