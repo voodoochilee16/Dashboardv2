@@ -53,7 +53,7 @@
     
         </div>
 
-      <label for="my-drawer-2" class="btn btn-neutral hover:bg-orange-400  hover:text-blue-200 drawer-button m-3 ">Open menu</label>
+      <label for="my-drawer-2" class="btn btn-neutral hover:bg-orange-400 hover:text-black drawer-button m-3">Open menu</label>
       
     </div> 
     <div class="drawer-side">
