@@ -21,7 +21,7 @@
 class:translate-x-0={isNavShowing}
 >
     
-    <div class="mt-10 mb-10">
+    <div class="mt-10 mb-10 md:mb-24">
         <a href="/"><img src="/images/logo.svg" alt="" class="mx-auto"></a>
     </div>
 
@@ -32,7 +32,7 @@ class:translate-x-0={isNavShowing}
             <li><a class:active={$page.url.pathname === "/pdb"} href="/pdb">PDB</a></li>
             <li><a class:active={$page.url.pathname === "/dhs"} href="/dhs">Design History Society</a></li>
             <li><a class:active={$page.url.pathname === "/settings"} href="/settings">Settings</a></li>
-            <li><a href="#">Log Out</a></li>
+            <li><a href="#">Log out</a></li>
         </ul>
     </nav>
 </header>
@@ -43,7 +43,7 @@ class:translate-x-0={isNavShowing}
     }
 
     nav ul li a {
-        @apply text-black hover:bg-bluehighlight;
+        @apply text-black hover:text-myorange;
     }
 
     nav ul li a.active{

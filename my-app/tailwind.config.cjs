@@ -4,13 +4,19 @@ module.exports = {
   theme: {
     extend: {
 
+      boxShadow: {
+        colored: "0px 7px 16px rgba(229, 110, 72, 0.002)",
+        coloredHover: "0px 16px 25px rgba(229, 110, 72, 0.3)",
+      },
+
       colors:{
         neutralbg: "#E4D8B4",
         neutralnav: "#D2C59D",
         softgreen: "#DAD392",
-        bluehighlight: "#A4CBB4"
+        bluehighlight: "#A4CBB4",
+        myorange: "#e56e48"
       },
-      
+
       zIndex: {
         navBarToggle: 91,
         navBar: 90,
