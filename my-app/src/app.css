@@ -9,5 +9,8 @@
     body {
         font-family: 'IBM Plex Mono', monospace;
     }
+    svg {
+        @apply fill-current
+    }
   
 }

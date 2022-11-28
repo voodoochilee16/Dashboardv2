@@ -1,10 +1,24 @@
 <script lang="ts">
     import {page} from "$app/stores"
+	import Close from "./Icon/Close.svelte";
+	import Hamburger from "./Icon/Hamburger.svelte";
+
+    let isNavShowing = false;
 </script>
 
-<header class="col-span-3 bg-neutralnav text-center">
+<!-- NavBar mobile -->
+
+<button class="fixed right-6 top-6" on:click = {() => isNavShowing = !isNavShowing}>
+    {#if isNavShowing}
+        <Close width={32} height={32}></Close>
+    {:else}
+        <Hamburger width={32} height={32}></Hamburger>
+    {/if}
+</button>
+
+<header class=" absolute md:relative w-full h-screen md:col-span-3 bg-neutralnav text-center">
     
-    <div>
+    <div class="mt-10 mb-10">
         <a href="/"><img src="/images/logo.svg" alt="" class="mx-auto"></a>
     </div>
 
