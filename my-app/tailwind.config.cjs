@@ -3,12 +3,19 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+
       colors:{
         neutralbg: "#E4D8B4",
         neutralnav: "#D2C59D",
         softgreen: "#DAD392",
         bluehighlight: "#A4CBB4"
-      }
+      },
+      
+      zIndex: {
+        navBarToggle: 91,
+        navBar: 90,
+      },
+
     },
   },
   plugins: [require("daisyui")],

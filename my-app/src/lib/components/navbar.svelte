@@ -1,14 +1,15 @@
 <script lang="ts">
     import {page} from "$app/stores"
-	import Close from "./Icon/Close.svelte";
-	import Hamburger from "./Icon/Hamburger.svelte";
+	import Close from "$lib/components/Icon/Close.svelte";
+	import Hamburger from "$lib/components/Icon/Hamburger.svelte";
 
     let isNavShowing = false;
 </script>
 
 <!-- NavBar mobile -->
 
-<button class="fixed right-6 top-6" on:click = {() => isNavShowing = !isNavShowing}>
+<button class="z-navBarToggle fixed right-6 top-6 md:hidden" on:click={() => {isNavShowing = !isNavShowing}}
+    class:text-black = {isNavShowing}>
     {#if isNavShowing}
         <Close width={32} height={32}></Close>
     {:else}
@@ -16,7 +17,9 @@
     {/if}
 </button>
 
-<header class=" absolute md:relative w-full h-screen md:col-span-3 bg-neutralnav text-center">
+<header class="z-navBar transition-transform absolute md:relative -translate-x-full md:translate-x-0 w-full h-screen md:col-span-3 bg-neutralnav text-center"
+class:translate-x-0={isNavShowing}
+>
     
     <div class="mt-10 mb-10">
         <a href="/"><img src="/images/logo.svg" alt="" class="mx-auto"></a>
