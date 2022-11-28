@@ -2,7 +2,14 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        neutralbg: "#E4D8B4",
+        neutralnav: "#D2C59D",
+        softgreen: "#DAD392",
+        bluehighlight: "#A4CBB4"
+      }
+    },
   },
   plugins: [require("daisyui")],
 
@@ -14,7 +21,7 @@ module.exports = {
         primary: "#00735D",
       },
     }],
-    base: true,
+    base: false,
     utils: true,
     logs: true,
     rtl: false,

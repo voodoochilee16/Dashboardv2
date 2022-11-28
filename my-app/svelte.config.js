@@ -12,6 +12,9 @@ const config = {
 	],
 
 	kit: {
+		alias: {
+			$utils: "./src/utils"
+		},
 		adapter: adapter()
 	}
 };
