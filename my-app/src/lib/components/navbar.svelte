@@ -5,6 +5,15 @@
 
     let isNavShowing = false;
 </script>
+<svelte:head>
+    {#if isNavShowing}
+        <style lang="postcss">
+        body {
+            @apply overflow-hidden md:overflow-auto
+        }
+        </style>
+    {/if}
+</svelte:head>
 
 <!-- NavBar mobile -->
 
