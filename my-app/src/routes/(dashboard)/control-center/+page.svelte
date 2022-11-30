@@ -2,6 +2,7 @@
 
 	import ThreeDots from "$lib/components/Icon/Three-dots.svelte";
     import Search from "$lib/components/Search.svelte";
+	import Tag from "$lib/components/tag.svelte";
 
 </script>
 
@@ -47,18 +48,18 @@
         </div> -->
     </div>
     <div class="mygrid grid grid-cols-7 items-center w-full rounded-xl px-5 gap-5 mx-20 text-black text-l font bg-softgreen">
-        <div>1</div>
+        <div><Tag label={"ola"}></Tag></div>
         <div>backoffice</div>
         <div>bda</div>
         <div>1 Janeiro</div>
         <div>url</div>
         <div class="text-black">
-            <button>
-                <ThreeDots width={32} height={32}></ThreeDots>
+            <button class="center">
+                <ThreeDots></ThreeDots>
             </button>
         </div>
         <div>
-            <button>
+            <button class="center">
                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
             
                 <g clip-path="url(#clip0_2087_4384)">

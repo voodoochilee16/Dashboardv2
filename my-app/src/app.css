@@ -14,3 +14,9 @@
     }
   
 }
+
+@layer utilities {
+    .center {
+        @apply flex items-end justify-center
+    }
+}
